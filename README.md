@@ -2,7 +2,7 @@
 
 Aplicación de compra de plantas de interior creada para el proyecto final **Paradise Nursery Shopping Application**, del curso Developing Front-End Apps with React. Preparada para **Option 1: AI-Graded Submission and Evaluation**.
 
-Basada en la [plantilla oficial de IBM Skills Network](https://github.com/ibm-developer-skills-network/e-plantShopping), conservando los nombres de archivo que evalúa Coursera. El repositorio público de entrega debe llamarse exactamente **e-plantShopping**.
+Basada en la [plantilla oficial de IBM Skills Network](https://github.com/ibm-developer-skills-network/e-plantShopping), conservando los nombres de archivo que evalúa Coursera. El repositorio público de entrega se llama **e-plantShopping**.
 
 ## Funcionalidades
 
@@ -36,9 +36,14 @@ pnpm preview
 
 `preview` sirve la compilación existente en `http://127.0.0.1:4173/`; ejecuta `build` primero.
 
+## Enlaces públicos
+
+- Repositorio: https://github.com/xm4u/e-plantShopping
+- Aplicación: https://xm4u.github.io/e-plantShopping/
+
 ## Entregar la opción 1
 
-Consulta **[docs/ENTREGA_OPCION_1.md](docs/ENTREGA_OPCION_1.md)** para publicar, desplegar y completar el checklist. El proyecto local y el workflow están preparados; la publicación en tu cuenta de GitHub y la entrega en Coursera son pasos pendientes.
+Consulta **[docs/ENTREGA_OPCION_1.md](docs/ENTREGA_OPCION_1.md)** para publicar, desplegar y completar el checklist. El fork público está publicado en [xm4u/e-plantShopping](https://github.com/xm4u/e-plantShopping) y la aplicación está desplegada en [GitHub Pages](https://xm4u.github.io/e-plantShopping/). La entrega de los siete enlaces en Coursera queda pendiente.
 
 Los siete archivos que debes entregar mediante sus URLs públicas de GitHub son:
 

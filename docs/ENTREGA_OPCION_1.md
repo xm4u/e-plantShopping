@@ -2,6 +2,16 @@
 
 Referencia: Final_Project-Paradise_Nursery_Shopping_Application.pdf, páginas 2, 5 y 25–26. Entrega **siete URLs públicas de GitHub que apunten directamente a archivos**; el repositorio debe llamarse exactamente `e-plantShopping`.
 
+## Estado actual
+
+- Fork público: https://github.com/xm4u/e-plantShopping
+- Aplicación publicada: https://xm4u.github.io/e-plantShopping/
+- Los siete enlaces de la sección 3 responden sin autenticación.
+- GitHub Actions ha completado instalación, lint, cuatro tests, build y deploy.
+- Solo queda enviar los enlaces en los campos correspondientes de Coursera.
+
+Los pasos de publicación siguientes quedan documentados para reproducir la configuración. El remoto `origin` ya está configurado y GitHub Pages ya está activado.
+
 ## 1. Publicar el repositorio
 
 El PDF indica hacer un fork de la plantilla oficial. Esta carpeta ya contiene una copia de su historial y las modificaciones completas.
@@ -11,7 +21,7 @@ El PDF indica hacer un fork de la plantilla oficial. Esta carpeta ya contiene un
 3. En una terminal situada en esta carpeta, añade tu fork como `origin`:
 
 ```sh
-git remote add origin https://github.com/TU_USUARIO/e-plantShopping.git
+git remote add origin https://github.com/xm4u/e-plantShopping.git
 git remote -v
 ```
 
@@ -46,7 +56,7 @@ Aunque la entrega de opción 1 solicita enlaces a los archivos, las notas genera
 2. Si GitHub mantiene los workflows desactivados por tratarse de un fork, habilítalos en la pestaña **Actions**.
 3. En **Actions**, ejecuta **Deploy Paradise Nursery to GitHub Pages → Run workflow**, seleccionando `main`, o realiza un nuevo push.
 4. Espera a que los trabajos build y deploy terminen correctamente.
-5. Abre la URL publicada por el trabajo deploy. Habitualmente será `https://TU_USUARIO.github.io/e-plantShopping/`.
+5. Abre la URL publicada por el trabajo deploy. La URL de este proyecto es `https://xm4u.github.io/e-plantShopping/`.
 6. Prueba portada, catálogo y carrito en la URL pública. Los assets relativos permiten servir la aplicación desde la subcarpeta del repositorio; la navegación usa hashes y no necesita reglas de reescritura.
 
 El workflow instala con pnpm y exige lint, tests y build antes del despliegue.
@@ -60,22 +70,22 @@ pnpm submission:links
 O, antes de configurar `origin`:
 
 ```sh
-pnpm submission:links https://github.com/TU_USUARIO/e-plantShopping
+pnpm submission:links https://github.com/xm4u/e-plantShopping
 ```
 
 Entrega estos enlaces en los campos correspondientes de Coursera:
 
 ```text
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/README.md
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/src/AboutUs.jsx
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/src/App.css
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/src/App.jsx
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/src/CartSlice.jsx
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/src/ProductList.jsx
-https://github.com/TU_USUARIO/e-plantShopping/blob/main/src/CartItem.jsx
+https://github.com/xm4u/e-plantShopping/blob/main/README.md
+https://github.com/xm4u/e-plantShopping/blob/main/src/AboutUs.jsx
+https://github.com/xm4u/e-plantShopping/blob/main/src/App.css
+https://github.com/xm4u/e-plantShopping/blob/main/src/App.jsx
+https://github.com/xm4u/e-plantShopping/blob/main/src/CartSlice.jsx
+https://github.com/xm4u/e-plantShopping/blob/main/src/ProductList.jsx
+https://github.com/xm4u/e-plantShopping/blob/main/src/CartItem.jsx
 ```
 
-Sustituye `TU_USUARIO` por tu usuario real. Abre cada enlace en una ventana privada sin iniciar sesión: debe mostrar el archivo, no un error 404 ni una solicitud de autenticación. No envíes rutas locales ni enlaces a la plantilla de IBM.
+Abre cada enlace en una ventana privada sin iniciar sesión: debe mostrar el archivo, no un error 404 ni una solicitud de autenticación. No envíes rutas locales ni enlaces a la plantilla de IBM.
 
 ## 4. Checklist funcional
 
@@ -99,4 +109,4 @@ Sustituye `TU_USUARIO` por tu usuario real. Abre cada enlace en una ventana priv
 
 ## Estado de preparación
 
-La aplicación, las fotos locales, las pruebas, el generador de enlaces y el workflow están incluidos. La publicación del fork, el push, la activación de Pages y la entrega en Coursera requieren realizarlos en tu cuenta. La preparación local no equivale a una entrega enviada ni a una calificación garantizada.
+La aplicación, las fotos locales, las pruebas, el generador de enlaces y el workflow están incluidos y publicados. El fork, el push, la activación de Pages y el despliegue están completados. Solo queda enviar los siete enlaces en Coursera. La publicación no equivale a una entrega enviada ni a una calificación garantizada.

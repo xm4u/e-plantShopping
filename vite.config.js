@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/shoppingreact",
+  // Relative assets work both locally and under /e-plantShopping/ on Pages.
+  base: './',
   plugins: [react()],
-})
+});
